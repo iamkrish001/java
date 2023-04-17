@@ -17,7 +17,7 @@ public class kilas {
 
         System.out.println("Hari is fine and it's" + isfine);
 
-        String myname = "krish is my 'name' ";
+        String myname = "krish is my name";
         System.out.println(myname.toUpperCase());
         System.out.print(myname.indexOf("name"));
 
