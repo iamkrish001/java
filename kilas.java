@@ -6,21 +6,20 @@ public class kilas {
         System.out.print("Hi");
         System.out.print("Hi\n");
 
-// about the variables
-int x = 8 ;
- x = 9 ; // now the value of x is 9 
-String carname = " Lamborghini";
-System.out.println(x);
-System.out.println(carname); // prints Lamborghini
+        // about the variables
+        int x = 8;
+        x = 9; // now the value of x is 9
+        String carname = " Lamborghini";
+        System.out.println(x);
+        System.out.println(carname); // prints Lamborghini
 
- boolean isfine = true ;
- 
- System.out.println("Hari is fine and it's" + isfine);
+        boolean isfine = true;
 
+        System.out.println("Hari is fine and it's" + isfine);
 
-String myname = "krish" ;
-System.out.println(myname.toUpperCase());
-
+        String myname = "krish is my 'name' ";
+        System.out.println(myname.toUpperCase());
+        System.out.print(myname.indexOf("name"));
 
     }
 }
