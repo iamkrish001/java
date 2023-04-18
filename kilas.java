@@ -42,5 +42,40 @@ public class kilas {
         System.out.println(num);
         // Math.abs(), prints absoulte(positive) value 
         System.out.println(Math.abs(-5));
+
+        // Java booleans
+        System.out.println(9>8); // prints true 
+
+        // Java if else statemets
+        int myage = 19 ;
+        int requiredage = 18 ;
+        if(myage >= requiredage)
+        {
+            System.out.println("The person is eligible to cast vote");
+        }
+    else
+    {
+        System.out.println("The person is not eligible to cast vote");
+    }
+
+    // Java switch cases
+    int age = 8 ; // the given value should be equal to the case number 
+    switch (age) {
+   case 1 : 
+   System.out.println(6);
+   break;
+
+   case 2 : 
+   System.out.println(7);
+   break;
+   case 3 : 
+   System.out.println(8);
+   break;
+   case 4: 
+   System.out.println(9);
+   break;
+   default:
+   System.out.println("No similar age found");
+    }
     }
 }
