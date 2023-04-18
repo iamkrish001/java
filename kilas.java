@@ -30,14 +30,17 @@ public class kilas {
         System.out.println("My name is\"Krish\"Bhurtel");
 
         // Java math
-      // Math.max(x,y), prints the maxiumum number
-      int highest =  Math.max(4,6);
-       System.out.println(highest);
-      // MaTH.min(x,y), prints the lowest number
-      int lowest =  Math.min(4,6);
-       System.out.println(lowest);
-       // Math.sqrt , prints the square root number
-       //Math.random, generates random number between 0 - 1
-       System.out.println((int)Math.random()*101); // 1 to 100 , int only let's you to print single integer
+        // Math.max(x,y), prints the maxiumum number
+        int highest = Math.max(4, 6);
+        System.out.println(highest);
+        // MaTH.min(x,y), prints the lowest number
+        int lowest = Math.min(4, 6);
+        System.out.println(lowest);
+        // Math.sqrt , prints the square root number
+        // Math.random, generates random number between 0 - 1
+         int num =(int) Math.random()*99; 
+        System.out.println(num);
+        // Math.abs(), prints absoulte(positive) value 
+        System.out.println(Math.abs(-5));
     }
 }
