@@ -1,3 +1,5 @@
+
+
 public class kilas {
     public static void main(String[] args) {
         System.out.println("Hello World"); // the only difference in using println and print is it adds a new line while
@@ -77,5 +79,25 @@ public class kilas {
    default:
    System.out.println("No similar age found");
     }
+int day = 4 ; 
+ switch(day){
+    case 1:
+    System.out.println("Sunday"); 
+    break ;
+    case 2:
+    System.out.println("Monday");
+    break ;
+    case 3:
+    System.out.println("Tuesday");
+    break ;
+    case 4:
+    System.out.println("Wednesday");
+    break ;
+    case 5:
+    System.out.println("Thursday");
+    default :
+    System.out.println("Error") ;
+ }
+
     }
 }
