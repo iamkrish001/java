@@ -34,7 +34,7 @@ Scanner sen = new Scanner(System.in);
 System.out.println("Enter the complete sentence");
 // String str = sen.next() ;
 // System.out.println(str); // Prints the first entered word
-String str = sen.nextLine() ;
+String str = sen.nextLine() ; // prints the full next line
 System.out.println(str);
     }
 }
