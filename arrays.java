@@ -39,26 +39,30 @@ public class arrays {
 
         // another example of multi dimensional array
         // int num[][] = { { 1, 2, 3 },
-        //                 { 4, 5, 6 } }; // variable declaration of 2 set of numbers
+        // { 4, 5, 6 } }; // variable declaration of 2 set of numbers
 
         // System.out.println(num[0][2]); // prints 3
 
-// WAP to print decrement star pattern starting from 5 stars
-for(int i=1; i<=5; i++){
-for(int j=5;j>=i;j--)
-{
-    System.out.println("*");
-}
-System.out.println("");
-}
-
-for(int i=1;i<=5;i++)
-{
-    for(int j=1;j<=i;j++)
-    {
-        System.out.println("*");
-    }
-}
-
+        // WAP to print decrement star pattern starting from 5 stars
+        // for(int i=1; i<=5; i++){
+        // for(int j=5;j>=i;j--)
+        // {
+        // System.out.println("*");
+        // }
+        // System.out.println("");
+        // }
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j <i; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");// gives a new line for spacing
+        }
+        for (int i = 0; i < 5; i++) {
+            for (int j =5; j > i; j--) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        
     }
 }
